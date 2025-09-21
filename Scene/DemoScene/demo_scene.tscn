@@ -227,6 +227,8 @@ tile_set = ExtResource("1_pymur")
 [node name="Player" parent="." instance=ExtResource("7_x8ug1")]
 position = Vector2(78, 253)
 
+[node name="Node2D" type="Node2D" parent="."]
+
 [connection signal="pressed" from="CanvasLayer/VBoxContainer/BGM1" to="." method="_on_bgm_1_pressed"]
 [connection signal="pressed" from="CanvasLayer/VBoxContainer/BGM2" to="." method="_on_bgm_2_pressed"]
 [connection signal="pressed" from="CanvasLayer/VBoxContainer/BGM3" to="." method="_on_bgm_3_pressed"]
